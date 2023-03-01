@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans&family=Lexend&display=swap');
-
-
-
-
-
-
-
 *{
     margin: 0;
-    height: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -35,7 +29,8 @@ header{
 .header-left{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    background-color: rgba(255, 166, 0, 0.836);
+   
+    background-color: var(--Bright-orange);
     width: 30.25%;
     height: 30rem;
 }
@@ -58,11 +53,6 @@ header{
 
 
 
-.header-top{
-    background-color: azure;
-    display: flex;
-    width: 100%;
-    height: 6rem;
-}
+
 
 
