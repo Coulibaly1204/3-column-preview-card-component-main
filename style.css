@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans&family=Lexend&display=swap');
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    height: 0;
+}
+
+
+:root{
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+--Transparent-white : hsl(0, 0%, 100%, 0.75);
+--Very-light-gray : hsl(0, 0%, 95%);
+}
+
+
+
+
+header{
+    font-family: 'Lexend', sans-serif;
+    padding-top: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    
+}
+
+.header-left{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: rgba(255, 166, 0, 0.836);
+    width: 30.25%;
+    height: 30rem;
+}
+
+.header-center{
+    background-color:darkcyan;
+    width: 30.25%;
+    height: 30rem;
+}
+
+.header-right{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgb(3, 73, 73);
+    width: 30.25%;
+    height: 30rem ;
+}
+
+
+
+
+
+.header-top{
+    background-color: azure;
+    display: flex;
+    width: 100%;
+    height: 6rem;
+}
+
+
